@@ -1,0 +1,9 @@
+Ejercicion(1)
+opcion(2)
+Elijo el segundo protocolo ya que el primero dispone de metodos individuales 
+para todos los puntos,podria suceder el caso en el cual deje de cumplir la
+propiedad de ser un rectangungulo,En cambio en el segundo portocolo dispone
+de el metdodo de clase "newEnOrigenEsquinaSuperiorIzquierda:unPunto alto:un-
+Numero ancho:unNumero" que se asegura dicha propiedad ya que dispo de un ancho
+y alto determinado que podrian facilmente calcularse para formar un rectangulo.
+

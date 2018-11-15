@@ -1,0 +1,7 @@
+Ejercicio(2)
+Opcion(2)
+Elijo la opcion 2 ya que si se trata de delegacion esta implementacion es la
+mas adecuada,Acausa de que delega el trabajo "buscar en fichero" a la secretaria
+y esta se encarga de  agarrar el fichero y buscar la ficha, Encambio en la 
+opcion 1 jefe es quien realiza todo el trabajo ya que no delega la tarea.  
+

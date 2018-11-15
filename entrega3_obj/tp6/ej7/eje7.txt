@@ -1,0 +1,7 @@
+3)Se está tratando de hacer un cambio de responsabilidades. En la figura 2,
+ es responsabilidad de la persona saber si participa en un proyecto o no
+ devolviendo true o false. Sin embargo, el método implementado en Proyecto
+ en la figura 3 no hace lo mismo. Ya que en lugar de devolver un boolean
+ devolverá a la persona o Nil en caso de que no se encuentre. Adicionalmente,
+ el objecto persona en esta última figura queda sin ningún comportamiento.
+ Siendo esto así, se podría pensar que no es necesario dicho objeto.

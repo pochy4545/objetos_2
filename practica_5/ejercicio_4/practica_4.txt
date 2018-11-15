@@ -1,0 +1,22 @@
+1.
+El patron state es utilizado cuando se requiere modelar diferentes comportamientos para un objetos dependiendo de un estado o 
+otro en cual se encuentra dicho objeto
+Este patrón se puede utilizar cuando El comportamiento del objeto depende del estado, y debe cambiar este comportamiento
+en tiempo de ejecución del programa dependiendo de dicho estado.
+Otro uso Es Cuando las operaciones requieren del uso de estructuras de control "multiparte" para definir el estado de un 
+objeto. Cuando muchas operaciones tendran ese misma estructura condicional.
+ El patrón State pone cada rama condicional en una clase separada.
+
+
+
+2.El contexto define la interfaz de interes del cliente.
+Mantiene una instancia de algunas de las subclases definidas como "Concrete State", la cuál define el estado actual del objeto.
+Se encarga de delegar los requerimientos especificos del estado a la instancia "Concrete State".
+El contexto es la principal interfaz para los clientes, Estos puede configurar el contexto cambiando el State. 
+
+
+3. El contexto puede pasarse a si mismo como argumento al enviar al estado actual el requerimiento.
+ Esto deja al State object acceder al contexto de ser necesario.
+
+
+4. Este patron permite especificar de forma explicita las transiciones de estado.

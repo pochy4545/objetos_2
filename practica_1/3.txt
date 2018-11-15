@@ -1,0 +1,17 @@
+opcion 1)
+*pregunta por la chase
+*no hay una jerarquia
+*no delega
+*no hay modularisacion
+opcion 2)
+*pregunta por la clase
+*no delega a subclases
+*declara variable de instancia innecesaria
+*no modulariza
+opcion 3)
+si bien es aceptable no estaria contemplando que ambas subclases
+comparten la mismas similitudes a la hora de extraer por lo cual no seria
+necesario re-escribir hacer que la subclases implemente en el metodo completo
+opcion 4)
+*contempla lo que las tres opciones anteriores no y lo implementa de manera
+correcta

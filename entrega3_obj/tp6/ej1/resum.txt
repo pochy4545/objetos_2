@@ -1,0 +1,24 @@
+SUNIT
+
+Además de los mensajes assert y deny. Existen los mensajes assert: aBlock 
+description: aString, deny aBlock description: aString, should: aBlock 
+raise: TestResult error  y shouldnt: aBlock raise: TestResult error.
+Cada vez que se ejecuta un test se ejecuta el setUp. Sin embargo hay veces
+en que lo que se está establecido en el setUp es modificado por ninguno de los
+test, por lo cual resulta ineficiente que este método se ejecute en múltiples
+ocasiones. Para solucionar esto existe la clase TestResource. 
+La idea es crear subclases de esta clase, las cuales van entender el mensaje
+current que devolverá una instancia singleton de la subclase. Estas subclases
+deberán re-implementar los métodos setUp y tearDown para inicializar y
+finalizar respectivamente.
+Para asociar un el TestCase creado con su correspondiente instancia de
+TestRource se debe re-implementar el método de clase resources.
+Por ejemplo: Definimos MyTestResource como subclase de TestResource
+y la asociamos a MyTestCase especificando en el mensaje de clase resources
+que retorne un arreglo de los test classes que utilizará:
+TestResource subclass: #MyTestResource 
+instanceVariableNames: '' 
+MyTestCase class»resources "associate the resource with this class of test
+cases" 
+{ MyTestResource }
+

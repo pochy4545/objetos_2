@@ -1,0 +1,22 @@
+1)Falso ya que la refactorizacion no debe cambiar el comportamiento ni 
+agregar nuevas funcionalidades.Se modifica la estructura sin afectar el 
+resultado.El refactoring es para que el codigo sea mas legible y mas
+simple de mantener
+2)Falso.La idea es que con cada pequeña refactorizacion hecha se chequee que
+no se modifica el comportamiento externo del objeto.por Ej al refactorizar
+el codigo puede que se renombren metodos.Si no se testea el codigo antes
+de ponerse en funcionaamiento puede que el codigo este haciendo llamadas
+a los viejos metodos
+3)Falso.Justamente lo que se modifica es la estructura interna del codigo.
+Refactoring busca:
+*Eliminar duplicaciones
+*Simplificar logicas complejas
+*Clarificar codigos
+*Romper Dependencias
+4)Falso.La refactorizacion es el producto de multiples iteraciones de diseño.
+Se van realizando cambios pequeños, lo cual es mas facil y mas seguro
+que un gran cambio.Cada pequeño cambio pone en evidencia otros cambios 
+nesecarios.Existen pasos a respetar dependiendo del "tipo"de mal olor que
+se este refactorizando,ya sea codigo duplicado,metodos largos,clases 
+grandes,etc.
+

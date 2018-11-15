@@ -1,0 +1,17 @@
+1)Un código con “mal olor” tiene “structures in code that suggest
+the possibility of refactoring”.Ocurre por ejemplo cuando hay codigo
+repetido, poco claro o complicado, o también cuando hay métodos largos,
+variables de clase innecesarias o una larga lista de parámetros. 
+En la clase se menciona como ejemplo de mal olor, una clase que solo
+sirve de contenedor de datos, sin tener ningún comportamiento especial.
+2)
+3)
+*)Se gana una fácil comprensión del código:  hay códigos que no se entienden,
+ aunque le pongamos comentarios (desodorante). 
+       **)Facilita la detección de bugs.
+       **)mejoras continuas al código lo hacen más fácil de trabajar.
+*)Permite agregar patrones después de haber escrito el programa
+(permite transformar un programa en framework).
+*)Permite preocuparse por la generalidad mañana; hoy solo hay que 
+hacerlo andar “Make it work. Make it right. Make it fast”.
+

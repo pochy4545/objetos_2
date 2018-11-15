@@ -1,0 +1,16 @@
+Imagen 1)
+opcion 1)
+Es la correcta, ya que dejar el atributo de una asociacion vacio se interpreta
+como la cardinalidad minima uno, y la cardinalidad maxima 2.
+
+Imagen 2)
+opcion 2)
+Es la correcta, ya que  la cardinalidad minima de la relacion es uno y la cardinalidad 
+maxima de la relacion es n , Esto se puede apreciar en el rango definido
+en la asociacion ("1..n")
+
+Imagen 3)
+opcion 2)
+Es la correcta, ya que el "*" en la relacion  indica como cardinalidad minima
+0 , y como cardinalidad maxima n
+
